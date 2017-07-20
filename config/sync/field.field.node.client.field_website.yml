@@ -1,0 +1,23 @@
+uuid: cccafe4a-8020-4760-9e1e-8ee67e482e1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website
+    - node.type.client
+  module:
+    - link
+id: node.client.field_website
+field_name: field_website
+entity_type: node
+bundle: client
+label: Website
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 2
+field_type: link

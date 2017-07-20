@@ -1,0 +1,42 @@
+uuid: 14820057-a3ac-4625-9c76-8346bd4badc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.client.body
+    - field.field.node.client.field_category
+    - field.field.node.client.field_email
+    - field.field.node.client.field_high_profile
+    - field.field.node.client.field_logo
+    - field.field.node.client.field_telephone
+    - field.field.node.client.field_website
+    - node.type.client
+  module:
+    - text
+    - user
+id: node.client.teaser
+targetEntityType: node
+bundle: client
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 0
+    settings:
+      trim_length: 140
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_category: true
+  field_email: true
+  field_high_profile: true
+  field_logo: true
+  field_telephone: true
+  field_website: true

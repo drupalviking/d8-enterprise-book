@@ -1,0 +1,22 @@
+uuid: ad19091e-47ea-4ff4-83eb-0d81301002f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.faq
+id: node.faq.status
+field_name: status
+entity_type: node
+bundle: faq
+label: 'Publishing status'
+description: 'A boolean indicating the published state.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

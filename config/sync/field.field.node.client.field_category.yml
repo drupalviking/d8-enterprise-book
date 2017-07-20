@@ -1,0 +1,28 @@
+uuid: b928e071-986c-4066-9439-66a798a6f503
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category
+    - node.type.client
+    - taxonomy.vocabulary.category
+id: node.client.field_category
+field_name: field_category
+entity_type: node
+bundle: client
+label: 'Work area'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      category: category
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: 7e87447c-a5b2-4159-9978-97c410bd4d7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_high_profile
+    - node.type.client
+id: node.client.field_high_profile
+field_name: field_high_profile
+entity_type: node
+bundle: client
+label: 'High profile'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'High profile'
+  off_label: 'Not high profile'
+field_type: boolean

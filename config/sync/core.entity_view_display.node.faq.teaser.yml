@@ -1,0 +1,20 @@
+uuid: 31722943-c355-43e1-b084-178632b61b38
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.faq.body
+    - field.field.node.faq.field_category
+    - node.type.faq
+  module:
+    - user
+id: node.faq.teaser
+targetEntityType: node
+bundle: faq
+mode: teaser
+content: {  }
+hidden:
+  body: true
+  field_category: true
+  links: true
