@@ -263,6 +263,24 @@ display:
       display_extenders: {  }
       display_description: ''
       block_description: 'News listing block'
+      style:
+        type: grid
+        options:
+          uses_fields: false
+          columns: 2
+          automatic_width: true
+          alignment: horizontal
+          col_class_default: true
+          col_class_custom: ''
+          row_class_default: true
+          row_class_custom: ''
+      defaults:
+        style: false
+        row: false
+      row:
+        type: 'entity:node'
+        options:
+          view_mode: teaser
     cache_metadata:
       max-age: -1
       contexts:
@@ -285,6 +303,7 @@ display:
         type: normal
         title: News
         menu_name: main
+        enabled: false
       display_description: ''
     cache_metadata:
       max-age: -1
