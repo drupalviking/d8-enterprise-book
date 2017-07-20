@@ -1,7 +1,7 @@
 uuid: 022024b6-923f-4cb5-ad26-4eca4d354b81
 name: 'Drupal 8 Enterprise Web Development'
 mail: drupalviking@gmail.com
-slogan: ''
+slogan: 'Here we test stuff ...'
 page:
   403: ''
   404: ''
@@ -12,3 +12,4 @@ langcode: en
 default_langcode: en
 _core:
   default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+mail_notification: ''
