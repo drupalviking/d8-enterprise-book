@@ -254,6 +254,25 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
+  block_1:
+    display_plugin: block
+    id: block_1
+    display_title: 'News listing as a Block'
+    position: 2
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      block_description: 'News listing block'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - user
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
   page_1:
     display_plugin: page
     id: page_1
