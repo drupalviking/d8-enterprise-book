@@ -1,0 +1,9 @@
+uuid: cf5d5215-3bf2-44b8-9421-2108bc151dba
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: category
+description: 'A list of terms used to cotegorize site content'
+hierarchy: 0
+weight: 0
