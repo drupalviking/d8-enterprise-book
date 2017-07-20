@@ -1,0 +1,14 @@
+uuid: 73a43fcb-58be-4987-8daf-99dfdcfa19dc
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: -7
+is_admin: null
+permissions:
+  - 'create article content'
+  - 'delete any article content'
+  - 'edit any article content'
+  - 'revert article revisions'
+  - 'view article revisions'

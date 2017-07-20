@@ -1,0 +1,14 @@
+uuid: 5be13ce1-6397-4d8e-9df5-47ce9b4de6e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.contributor
+  module:
+    - user
+id: user_add_role_action.contributor
+label: 'Add the Contributor role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: contributor

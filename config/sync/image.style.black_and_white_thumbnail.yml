@@ -1,0 +1,19 @@
+uuid: 5735c41b-ad1e-4402-a0d6-1a114f3f7cb7
+langcode: en
+status: true
+dependencies: {  }
+name: black_and_white_thumbnail
+label: 'Black and white thumbnail'
+effects:
+  31f51d6d-52d6-4e32-a551-e9ade3c3cb8d:
+    uuid: 31f51d6d-52d6-4e32-a551-e9ade3c3cb8d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
+  b217964c-d1a2-4efc-8082-9bc15f81477d:
+    uuid: b217964c-d1a2-4efc-8082-9bc15f81477d
+    id: image_desaturate
+    weight: 2
+    data: {  }
