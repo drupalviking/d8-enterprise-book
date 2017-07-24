@@ -1,0 +1,21 @@
+uuid: fad859f9-0379-40f3-b3be-96082c054aac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_field_note
+    - node.type.basic_content_type
+  module:
+    - field_permission_example
+id: node.basic_content_type.field_field_note
+field_name: field_field_note
+entity_type: node
+bundle: basic_content_type
+label: 'Field Note'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_permission_example_fieldnote

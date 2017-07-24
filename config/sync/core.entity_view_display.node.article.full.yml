@@ -11,11 +11,11 @@ dependencies:
     - field.field.node.article.field_category
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.black_and_white_thumbnail
     - node.type.article
+    - responsive_image.styles.narrow
   module:
     - comment
-    - image
+    - responsive_image
     - text
     - user
 _core:
@@ -50,11 +50,11 @@ content:
     type: entity_reference_label
     region: content
   field_image:
-    type: image
+    type: responsive_image
     weight: 1
     region: content
     settings:
-      image_style: black_and_white_thumbnail
+      responsive_image_style: narrow
       image_link: ''
     third_party_settings: {  }
     label: hidden

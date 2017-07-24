@@ -10,14 +10,20 @@ module:
   color: 0
   comment: 0
   config: 0
+  config_entity_example: 0
   contact: 0
+  content_entity_example: 0
   contextual: 0
   ctools: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  examples: 0
+  fapi_example: 0
   field: 0
+  field_example: 0
+  field_permission_example: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -28,8 +34,10 @@ module:
   menu_ui: 0
   module_filter: 0
   node: 0
+  node_type_example: 0
   options: 0
   page_cache: 0
+  page_example: 0
   path: 0
   quickedit: 0
   rdf: 0
