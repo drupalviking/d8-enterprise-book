@@ -1,0 +1,20 @@
+uuid: c06cf040-9527-4e97-b218-8be841c402f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.content_entity_example_contact.field_email
+  module:
+    - content_entity_example
+id: content_entity_example_contact.content_entity_example_contact.field_email
+field_name: field_email
+entity_type: content_entity_example_contact
+bundle: content_entity_example_contact
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

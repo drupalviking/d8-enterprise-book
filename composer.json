@@ -25,6 +25,7 @@
         "drupal/examples": "1.x-dev",
         "drupal/module_filter": "^3.0",
         "drupal/pathauto": "^1.0",
+        "drupal/relation": "2.x-dev",
         "drupal/views_accordion": "^1.0",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^0.3.0",

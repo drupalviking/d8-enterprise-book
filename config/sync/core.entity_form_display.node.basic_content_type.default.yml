@@ -4,12 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.basic_content_type.body
-    - field.field.node.basic_content_type.field_color
-    - field.field.node.basic_content_type.field_field_note
     - node.type.basic_content_type
   module:
-    - field_example
-    - field_permission_example
     - path
     - text
 _core:
@@ -33,18 +29,6 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
-    region: content
-  field_color:
-    weight: 26
-    settings: {  }
-    third_party_settings: {  }
-    type: field_example_colorpicker
-    region: content
-  field_field_note:
-    weight: 27
-    settings: {  }
-    third_party_settings: {  }
-    type: field_permission_example_widget
     region: content
   path:
     type: path

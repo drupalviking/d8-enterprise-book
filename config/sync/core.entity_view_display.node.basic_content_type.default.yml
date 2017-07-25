@@ -4,15 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.basic_content_type.body
-    - field.field.node.basic_content_type.field_color
-    - field.field.node.basic_content_type.field_field_note
     - node.type.basic_content_type
   enforced:
     module:
       - node_type_example
   module:
-    - field_example
-    - field_permission_example
     - text
     - user
 _core:
@@ -28,20 +24,6 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-    region: content
-  field_color:
-    weight: 102
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: field_example_simple_text
-    region: content
-  field_field_note:
-    weight: 103
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: field_permission_example_simple_formatter
     region: content
   links:
     weight: 100
