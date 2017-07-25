@@ -1,0 +1,19 @@
+uuid: 89ed224c-da36-4008-8812-0fe8c55775ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.relation.field_relationship
+    - relation.type.article_references_client
+id: relation.article_references_client.field_relationship
+field_name: field_relationship
+entity_type: relation
+bundle: article_references_client
+label: Relationship
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,77 @@
+uuid: 69e00d29-31ef-4249-b03c-db4bc00d1b0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.relation.endpoints
+    - node.type.article
+    - node.type.client
+    - relation.type.article_references_client
+  module:
+    - dynamic_entity_reference
+id: relation.article_references_client.endpoints
+field_name: endpoints
+entity_type: relation
+bundle: article_references_client
+label: Endpoints
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  node:
+    handler: 'default:node'
+    handler_settings:
+      target_bundles:
+        article: article
+        client: client
+  aggregator_feed:
+    handler: 'default:aggregator_feed'
+    handler_settings:
+      target_bundles: {  }
+  aggregator_item:
+    handler: 'default:aggregator_item'
+    handler_settings:
+      target_bundles: {  }
+  block_content:
+    handler: 'default:block_content'
+    handler_settings:
+      target_bundles: {  }
+  comment:
+    handler: 'default:comment'
+    handler_settings:
+      target_bundles: {  }
+  contact_message:
+    handler: 'default:contact_message'
+    handler_settings:
+      target_bundles: {  }
+  content_entity_example_contact:
+    handler: 'default:content_entity_example_contact'
+    handler_settings:
+      target_bundles: {  }
+  file:
+    handler: 'default:file'
+    handler_settings:
+      target_bundles: {  }
+  relation:
+    handler: 'default:relation'
+    handler_settings:
+      target_bundles: {  }
+  shortcut:
+    handler: 'default:shortcut'
+    handler_settings:
+      target_bundles: {  }
+  taxonomy_term:
+    handler: 'default:taxonomy_term'
+    handler_settings:
+      target_bundles: {  }
+  user:
+    handler: 'default:user'
+    handler_settings:
+      target_bundles: {  }
+  menu_link_content:
+    handler: 'default:menu_link_content'
+    handler_settings:
+      target_bundles: {  }
+field_type: dynamic_entity_reference

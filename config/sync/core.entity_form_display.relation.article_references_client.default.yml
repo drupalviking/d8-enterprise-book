@@ -1,0 +1,33 @@
+uuid: 837e8198-a034-4325-be5d-947810c0fe16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.relation.article_references_client.endpoints
+    - field.field.relation.article_references_client.field_relationship
+    - relation.type.article_references_client
+  module:
+    - dynamic_entity_reference
+id: relation.article_references_client.default
+targetEntityType: relation
+bundle: article_references_client
+mode: default
+content:
+  endpoints:
+    type: dynamic_entity_reference_default
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 40
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_relationship:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden: {  }

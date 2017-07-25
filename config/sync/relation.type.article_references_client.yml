@@ -1,0 +1,16 @@
+uuid: 2c5eed4a-a7bb-4054-a98f-768a448d3b4f
+langcode: en
+status: true
+dependencies: {  }
+id: article_references_client
+label: 'Article references client'
+reverse_label: 'Client is referred by an article'
+directional: true
+transitive: false
+r_unique: false
+min_arity: 2
+max_arity: 2
+source_bundles:
+  'node:article': 'node:article'
+target_bundles:
+  'node:client': 'node:client'
