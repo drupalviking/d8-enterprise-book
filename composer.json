@@ -23,6 +23,7 @@
         "drupal/console": "~1.0",
         "drupal/core": "~8.0",
         "drupal/examples": "1.x-dev",
+        "drupal/media_entity": "^1.6",
         "drupal/module_filter": "^3.0",
         "drupal/paragraphs": "^1.1",
         "drupal/pathauto": "^1.0",

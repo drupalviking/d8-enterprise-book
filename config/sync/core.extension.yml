@@ -20,6 +20,7 @@ module:
   dynamic_entity_reference: 0
   dynamic_page_cache: 0
   editor: 0
+  entity: 0
   entity_reference_revisions: 0
   examples: 0
   fapi_example: 0
@@ -33,6 +34,7 @@ module:
   history: 0
   image: 0
   link: 0
+  media_entity: 0
   menu_ui: 0
   module_filter: 0
   node: 0
