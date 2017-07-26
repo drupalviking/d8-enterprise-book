@@ -24,6 +24,7 @@
         "drupal/core": "~8.0",
         "drupal/examples": "1.x-dev",
         "drupal/module_filter": "^3.0",
+        "drupal/paragraphs": "^1.1",
         "drupal/pathauto": "^1.0",
         "drupal/relation": "2.x-dev",
         "drupal/views_accordion": "^1.0",
